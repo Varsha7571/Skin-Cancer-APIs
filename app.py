@@ -8,6 +8,10 @@ from tensorflow.keras.models import load_model
 
 app = FastAPI()
 
+
+# uvicorn app:app --reload  -> to run the code below-
+
+
 # Load pre-trained model
 model = load_model('final_model.h5')
 
